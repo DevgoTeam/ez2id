@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://devgoteam.github.io/ez2id/ITAdmin/ManageUsers/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>ManageUsers - Ez2ID Product Help</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Users", url: "#_top", children: [
+          ]},
+          {title: "Local User Managment", url: "#local-user-managment", children: [
+              {title: "User Status", url: "#user-status" },
+          ]},
+          {title: "Action on users", url: "#action-on-users", children: [
+          ]},
+          {title: "Import Users", url: "#import-users", children: [
+          ]},
+          {title: "Users Roles", url: "#users-roles", children: [
+          ]},
+          {title: "Externally authenticated users", url: "#externally-authenticated-users", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+
+    <p><img alt="Logo Ez2cloud" src="../../images/ez2cloud2.png" /></p>
+<hr>
+
+<h2 id="users">Users</h2>
+<div style='text-align: justify;'>
+<p>User managment it is one of the mandatory configuration that is required as one of the primary task to be completed. Users account and their information will have a double perspective in Ez2Cloud. Indeed, user account are used in the authentication process and also to implement the Ownership Label concept. </p>
+<p>All the functionalities needed to manage user will be available under the User Managment Menu View. After click in this option <img  src="./images/ButtonMenuUser.png">  from the Main window side menu, the User Management View will be shown as the following image:</p>
+</div>
+
+<p><img alt="Image of Sharelabelproject" src="../images/ManageUsersView.png" /></p>
+<div style='text-align: justify;'>
+<p>At the top of the User Management View there are multiple button that allows manage users: add, edit, disable, search users. Next you'll find more details on each of the available action. Note that these users are the ones managed by Ez2Cloud. In later version you can use users managed by Third part servies such On-premise AD ou Azure AD. </p>
+</div>
+
+<p><img alt="Image of Sharelabelproject" src="../images/ManageUserControl.png" /></p>
+<h2 id="local-user-managment">Local User Managment</h2>
+<div style='text-align: justify;'> 
+<p>
+The following section describe action to be performed on a single on a limited group of users. It is best suited to small group of users. 
+</p>
+</div>
+<p>All the local users accounts information are presented in a table as shown in the follwing image: <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/UsersManagmentTable.png"><p>The user account information that is presented can be ordered by the fields: First Name, Last Name, Email. To do that, just pass the mouse over the title corresponding to the field you want to sort and click on the button <img src="./images/IconSort.png"> <p>Also the information can be filtered by Departament, Role and Stauts. Do so by pass mouse over the title corresponding to the field you want to filter and click on the button <img src="./images/IconFilter.png">
+Also you can navigate to different pages by click in one this arrows <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonNav.png"></p>
+<h3 id="user-status">User Status</h3>
+<div style='text-align: justify;'> 
+<p>
+The local users have a status that refers to the current state of the user regarding Ez2Cloud Plataform. The different status are: 
+</p>
+</div>
+
+<ul>
+<li><img src="./images/UserPending.png"> - A user is created email Invitation Sent.  </li>
+<li><img src="./images/UserActive.png"> - Account has been created and it is currently used. After the user accepts the invitation and actually set up the account.</li>
+<li><img src="./images/UserInactive.png "> - A user was disabled </li>
+</ul>
+<h2 id="action-on-users">Action on users</h2>
+<div style='text-align: justify;'> 
+<p> The actions to be performed on the information user account will always started by selecting one or multiple users from the table. Selecting a user by just click the check-box at the row of the corresponding user or just click on multiple check-box or select all the users by click the check-box on the table header. </p>
+<p> The buttons will be disabled until one or more users is selected. Also the Add User button can be disable due to the fact that the Tenant has reach the maximum number of users the current subscripiton allows. In this case upon the Add icon you will see the <img src="./images/prohibition.png"> icon 
+</div>
+
+<p><img alt="Image of Sharelabelproject" src="../images/ManageUserControl.png" /></p>
+<ol>
+<li><strong>To Add User</strong> <img alt="Image of Sharelabelproject" src="../images/ButtonAdd.png" /> <p>Local users can be added one at a time by fill the fields showed in the following image. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png"></p><p>An invititation will be sent to the provided email address. In order to login the user must proceed to Ez2Cloud follow the invitation link embeded in the message and set his password and other provied other information that will be requested.</p></li>
+<li><strong>To Edit User</strong> <img alt="Image of Sharelabelproject" src="../images/ButtonEdit.png" /> <p>Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p></li>
+<li>
+<p><strong>To Disable User</strong> <img alt="Image of Sharelabelproject" src="../images/ButtonDisable.png" /> <p>From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
+<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p></p>
+</li>
+<li>
+<p><strong>To Reset Password</strong> <img alt="Image of Sharelabelproject" src="../images/ButtonReset.png" /> <p>From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
+  <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserReset.png"> where you must confirm the reset user operation. If you select multiple users the confirmation dialog will be show all the users selected 
+     <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p></p>
+</li>
+</ol>
+<h2 id="import-users">Import Users</h2>
+<h2 id="users-roles">Users Roles</h2>
+<p><img alt="Image of Sharelabelproject" src="../../images/admin/5.png" /> </p>
+<h2 id="externally-authenticated-users">Externally authenticated users</h2>
+
+  <br>
+    
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
