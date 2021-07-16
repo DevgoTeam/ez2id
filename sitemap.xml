@@ -6,6 +6,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devgoteam.github.io/ez2id/Account/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devgoteam.github.io/ez2id/Calls/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devgoteam.github.io/ez2id/Essentials/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -146,6 +156,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devgoteam.github.io/ez2id/GettingStart/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devgoteam.github.io/ez2id/ITAdmin/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -217,6 +232,16 @@
     </url>
     <url>
          <loc>https://devgoteam.github.io/ez2id/Mobile/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devgoteam.github.io/ez2id/More/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devgoteam.github.io/ez2id/Security/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
